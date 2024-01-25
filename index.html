@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
-    crossorigin="anonymous">
-
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="sidebar">
         <nav class="sidebar_navigation">
@@ -18,25 +20,56 @@
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <span class="fa-solid fa-house"></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span></span>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home">
+                            </span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <div class="library">
+            <div class="library_content">
+                <button class="library_button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section_playlist_content">
+                    <span class="text title"> Crie a sua primeira Playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist_button">
+                        <span>Criar playlist</span>
+                    </button> 
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="language_button">
+                    <span class="fa fa-globe"></span>
+                    <span>
+                        Português Brasil
+                    </span>
+                </button>
+            </div>
+        </div>
     </div>
-    
 </body>
+
 </html>
